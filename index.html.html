@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------------------------------jQuery link---------------------------- -->
+    <script src="./jquery-3.6.0.js"></script>
+    <!-- -----------------------------bootstrap 4 link------------------------------------- -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- -------------------------fontawesome link----------------------------------------- -->
+    <script src="https://kit.fontawesome.com/eceb24a0ec.js" crossorigin="anonymous"></script>
+    <title>mytheme</title>
+
+<!-- -------------------------------stylesheet------------------------------------------------- -->
+
+    <style>
+        *
+        {
+            font-family: sans-serif;
+        }
+        .section1
+        {
+            height: 100vh;
+            width: 100%;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./bg-masthead.jpg);
+            background-size: 100% 100%;
+        }
+        nav
+        {
+            height: 80px;
+          
+        }
+        .navbar-toggler
+        {
+            border: 2px solid white;
+            color: white;
+        }
+        .navbar-toggler-icon{
+            color: white !important;
+
+
+        }
+        .section2
+        {
+            background-color: rgb(248, 108, 58);
+            height: 70vh;
+            width: 100%;
+
+        }
+        .icon1
+        {
+            color: rgb(248, 108, 58);
+        }
+        .section4
+        {
+            width: 100% !important;
+            /* overflow: hidden; */
+        }
+        .rowsection4{
+            width: 100%!important;
+            /* position: absolute; */
+        }
+       
+
+        
+        
+        
+       
+        
+        
+
+    </style>
+</head>
+<body>
+   
+
+        <!-- --------------------------------------navbar------------------------------------------------- -->
+
+                <nav class="navbar navbar-expand-lg p-4 w-100 fixed-top navbar-dark">
+                    <a class="navbar-brand ml-5 font-weight-bold a1" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-75 d-flex justify-content-end font-weight-bold ul1">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+        <!-- ----------------------------------------------section 1-----------------------------------------------         -->
+
+        <div class="container-fluid section1">
+
+            <div class="row h-100 d-flex align-items-center">
+                <div class="col col-md-6 col-sm-6 col-lg-6 d-flex text-center  mx-auto justify-content-center align-items-center flex-column text-light pt-3">
+                    <p class="h1 my-2">YOUR FAVORITE PLACE FOR BOOTSTRAP THEMES</p>
+                    <hr style="height: .4vh;width: 13%;background-color: rgb(248, 108, 58);">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem delectus quod debitis ab modi odio, corporis ipsam repudiandae assumenda cum!</p>
+                    <button class="btn font-weight-bold p-3" style="background-color: rgb(248, 108, 58);border-radius: 30px;color: white;">Find Out More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- ----------------------------------------------section 2-----------------------------------------------         -->
+
+        
+    <div class="container-fluid section2">
+        <div class="row w-100 h-100">
+            <div class="col h-100 col-md-6 col-sm-6 col-lg-6 text-center d-flex flex-column mx-auto align-items-center justify-content-center text-light">
+                <p class="h1 my-2">We've got what you need!</p>
+                <hr style="height: .4vh;width: 13%;background-color: white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem delectus quod debitis ab modi odio, corporis ipsam repudiandae assumenda cum!</p>
+                    <button class="btn font-weight-bold p-3" style="background-color: white;border-radius: 30px;color: black;border: none;">Get Started!</button>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- ----------------------------------------------section 3-----------------------------------------------         -->
+
+
+    <div class="container-fluid border border-danger section3 d-flex flex-column justify-content-center align-items-center p-5">
+
+        <div class="row">
+            <div class="col col-12">
+                <p class="h1">At Your Service</p>
+                <hr style="height: .4vh;width: 13%;background-color: rgb(248, 108, 58);">
+            </div>
+        </div>
+
+        <div class=" container row h-50">
+            <div class=" col-lg-3 col-md-6 col-sm-12 d-flex border flex-column justify-content-center align-items-center text-center p-3">
+                <h1 class="icon1"><i class="far fa-gem"></i></h1>
+                <h4>Sturdy Themes</h4>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, maiores!</p>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 d-flex border flex-column justify-content-center align-items-center text-center p-3">
+                <h1 class="icon1"><i class="fas fa-laptop"></i></h1>
+                <h4>Up to Date</h4>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, maiores!</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex border flex-column justify-content-center align-items-center text-center p-3">
+                <h1 class="icon1"><i class="fas fa-globe"></i></h1>
+                <h4>Ready to Publish</h4>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, maiores!</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex border flex-column justify-content-center align-items-center text-center p-3">
+                <h1 class="icon1"><i class="far fa-heart"></i></h1>
+                <h4>Made with Love</h4>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, maiores!</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------------------------section 4----------------------------------------------- -->
+
+    <div class="container-fluid border border-danger section4 bg-dark con p-0">
+
+        <div class="row  rowsection4 border border-info d-flex justify-content-center align-items-center no-gutters">
+            <div class=" col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center colsection4a border border-success">
+                <img class="img-fluid" src="./1.jpg" alt="" style="height: 40vh; width: 100%;">
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center colsection4b border border-success">
+                <img class="img-fluid" src="./2.jpg" alt="" style="height: 40vh; width: 100%;">
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center colsection4c border border-success">
+                <img class="img-fluid" src="./3.jpg" alt="" style="height: 40vh; width: 100%">
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center colsection4a border border-success">
+                <img class="img-fluid" src="./3.jpg" alt="" style="height: 40vh; width: 100%">
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center colsection4b border border-success">
+                <img class="img-fluid" src="./1.jpg" alt="" style="height: 40vh; width: 100%">
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center colsection4c border border-success">
+                <img class="img-fluid" src="./2.jpg" alt="" style="height: 40vh;width: 100% ">
+            </div>
+        </div>
+
+        <div class="row p-5">
+            <div class="col col-12 p-5 text-center d-flex justify-content-center align-items-center flex-column">
+                <p class="h1 text-light">Free Download at Start!</p>
+                <button class="btn bg-light font-weight-bold p-3" style="border-radius: 30px;">Download Now</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- --------------------------------------------------section 5------------------------------------------- -->
+
+    <div class="container-fluid p-3">
+
+        <div class="row w-100">
+            <div class="col h-100 col-md-6 col-sm-6 col-lg-6 text-center d-flex flex-column mx-auto align-items-center justify-content-center text-dark">
+                <p class="h1 my-2">Let's Get In Touch!</p>
+                <hr style="height: .4vh;width: 13%;background-color: rgb(248, 108, 58)">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem delectus quod debitis ab modi odio, corporis ipsam repudiandae assumenda cum!</p>
+            </div>
+        </div>
+
+        <div class="row w-100 ">
+            <div class="col col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column p-3 mt-3 text-center mx-auto">
+                <div class="input-group mb-3">
+                    <input type="text" placeholder="Full name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" placeholder="Email address" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" placeholder="Phone number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-group">
+                    <textarea class="form-control" placeholder="Message" aria-label="With textarea"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <div style="width: 100%; height: 200vh; border: 1px solid #000;"></div>
+
+
+
+
+
+
+
+    <script>
+
+        let navBar = document.querySelector('nav');
+        let br = document.querySelector('.navbar-brand');
+
+        $(".nav-link").css("color","white")
+        
+
+        navBar.style.backgroundColor = 'transparent'
+        br.style.color = 'white'
+
+        
+
+
+        
+        window.addEventListener("scroll",abc)
+        function abc()
+        {
+            if(scrollY>5){
+                navBar.style.backgroundColor = 'white'
+                br.style.color = 'black'
+               $(".nav-link").css("color","black")
+        $(".navbar-toggler-icon").css("color","black")
+
+
+            }
+            else{
+                navBar.style.backgroundColor = 'transparent'
+                br.style.color = 'white'
+                $(".nav-link").css("color","white")
+
+
+            }
+        }
+
+        
+
+    </script>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
